@@ -7,7 +7,7 @@
 ### 1. 使用 uv 创建环境
 
 ```bash
-cd yolo26/
+cd yolo26-rknn/
 uv sync
 ```
 
@@ -49,3 +49,7 @@ python main.py
 ## 链接
 
 https://doc.embedfire.com/linux/rk356x/Python/zh/latest/ai/yolo26..html
+
+## 示例效果
+
+![检测示例](image.png)
