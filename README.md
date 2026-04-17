@@ -1,14 +1,14 @@
 # YOLO26
 
-基于RKNN的YOLO26目标检测模型，使用Gradio构建Web演示界面。
+基于 RKNN 的 YOLO26 目标检测模型，使用 Gradio 构建 Web 演示界面。
 
 ## 快速开始
 
-### 1. 安装依赖
+### 1. 使用 uv 创建环境
 
 ```bash
 cd yolo26/
-source .venv/bin/activate
+uv sync
 ```
 
 ### 2. 准备模型
@@ -27,13 +27,14 @@ model/
 ### 3. 运行程序
 
 ```bash
-python main.py
+uv run main.py
 ```
 
-如果安装了uv也可以直接运行命令：
+或使用激活的虚拟环境：
 
 ```bash
-uv run main.py
+source .venv/bin/activate
+python main.py
 ```
 
 启动成功后，在浏览器中访问：`http://<设备 IP>:7860`
