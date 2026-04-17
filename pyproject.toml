@@ -1,0 +1,12 @@
+[project]
+name = "yolo26"
+version = "0.1.0"
+description = "Yolo26 rknn"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gradio>=6.12.0",
+    "numpy>=2.4.4",
+    "opencv-python>=4.13.0.92",
+    "rknn-toolkit-lite2>=2.3.2",
+]
