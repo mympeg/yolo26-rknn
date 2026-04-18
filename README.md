@@ -39,6 +39,10 @@ python main.py
 
 启动成功后，在浏览器中访问：`http://<设备 IP>:7860`
 
+## 示例效果
+
+![检测示例](image.png)
+
 ## 使用说明
 
 1. 上传待检测图片，或点击示例图片加载测试图
@@ -50,6 +54,3 @@ python main.py
 
 https://doc.embedfire.com/linux/rk356x/Python/zh/latest/ai/yolo26..html
 
-## 示例效果
-
-![检测示例](image.png)
